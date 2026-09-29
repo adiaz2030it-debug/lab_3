@@ -26,3 +26,4 @@ try:
 
 except ValueError:
     print("Error: Debes ingresar un número entero.")
+
