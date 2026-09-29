@@ -1,0 +1,20 @@
+temperaturas = [18, 25, 31, 12, 28, 35, 20]
+
+dias_frios = 0
+dias_templados = 0
+dias_calurosos = 0
+
+for temperatura in temperaturas:
+    if temperatura < 15:
+        print(f"temperaturas {temperatura} - Fría")
+        dias_frios += 1
+    elif 25 <= temperatura <= 30:
+        print(f"temperaturas {temperatura} - Templada")
+        dias_templados += 1
+    else:
+        print(f"temperatura {temperatura} - Calurosa")
+        dias_calurosos += 1
+
+print(f"Días fríos: {dias_frios}")
+print(f"Días templados: {dias_templados}")
+print(f"Días calurosos: {dias_calurosos}")
