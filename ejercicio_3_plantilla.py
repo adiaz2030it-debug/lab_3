@@ -1,8 +1,3 @@
-numero_dia = int(input("Escribe un número del 1 al 7: "))
-
-match numero_dia:
-    case 1:
-        print("El día seleccionado es: Lunes")
 try:
       
     numero_dia = int(input("Escribe un número del 1 al 7: "))
